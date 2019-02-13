@@ -43,7 +43,7 @@ class Dashboard extends React.Component {
       image: image,
       color: "blue",
       hasImage: true,
-      fixedClasses: "dropdown show",
+      fixedClasses: "dropdown",
       mobileOpen: false
     };
   }
@@ -94,7 +94,7 @@ class Dashboard extends React.Component {
       <div className={classes.wrapper}>
         <Sidebar
           routes={routes}
-          logoText={"Creative Tim"}
+          logoText={"Smart Beat"}
           logo={logo}
           image={this.state.image}
           handleDrawerToggle={this.handleDrawerToggle}
